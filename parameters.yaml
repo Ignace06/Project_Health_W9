@@ -1,0 +1,17 @@
+Data:
+  Synthesis: ../Data/Health_Wealth_Synthesis2
+  economy: ../Data/Data_economy_Source.xlsx
+  health: ../Data/Data_Health_Source.xlsx
+Models:
+  DecisionTreeRegressor: ../Models/DTR_health.pkl
+  KNeighborsRegressor: ../Models/KNR_health.pkl
+  Linear_models: ../Models/LM_health.pkl
+  RandomForestRegressor: ../Models/RFR_health.pkl
+  RandomForestRegressor+GridSearchCV: ../Models/RFR+GridSearchCV_health.pkl
+  RandomForestRegressor+cross_val_score: ../Models/RFR+cross_val_score_health.pkl
+Random:
+  State: 42
+Scalers:
+  Standard: ../Scalers/Standard_Scaler_health.pkl
+Transformers:
+  Power: ../Transformers/PowerTransformer_health.pkl
